@@ -1,0 +1,28 @@
+# Common OS files
+.DS_Store
+Thumbs.db
+
+# Node.js (Frontend) specific exclusions - inside ai-therapist-chatbot/
+ai-therapist-chatbot/node_modules/
+ai-therapist-chatbot/dist/
+ai-therapist-chatbot/npm-debug.log*
+ai-therapist-chatbot/yarn-debug.log*
+ai-therapist-chatbot/yarn-error.log*
+ai-therapist-chatbot/.env.local
+ai-therapist-chatbot/.env.*.local
+ai-therapist-chatbot/.vite/ # Vite cache
+
+# Python (Backend) specific exclusions - inside ai-therapist-backend/
+ai-therapist-backend/venv/
+ai-therapist-backend/.venv/ # Just in case
+ai-therapist-backend/__pycache__/
+ai-therapist-backend/*.pyc
+ai-therapist-backend/*.pyo
+ai-therapist-backend/.env # If you use .env file for backend env vars
+
+# IDE specific (optional, but good practice)
+.vscode/
+
+# Sensitive files (Ensure your API keys are NOT hardcoded in app.py with default values)
+# If you create any separate config files for keys, add them here:
+# ai-therapist-backend/config.py
