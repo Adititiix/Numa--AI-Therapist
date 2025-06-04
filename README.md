@@ -55,11 +55,7 @@ Follow these steps to get Numa running on your local machine.
 
 First, clone this monorepo to your local machine:
 
-```bash
-git clone [https://github.com/Adititiix/Numa--AI-Therapist.git](https://github.com/Adititiix/Numa--AI-Therapist.git)
-cd Numa--AI-Therapist
-
-2. Backend Setup (ai-therapist-backend/)
+ Backend Setup (ai-therapist-backend/)
 Navigate to the backend directory:
 
 Bash
@@ -136,3 +132,4 @@ The frontend implements a MAX_FREE_MESSAGES constant (defaulting to 50 user mess
 🔒 Security Notes
 API Keys & Sensitive Data: API keys and other sensitive information are loaded via environment variables (.env file) and are explicitly excluded from Git history using .gitignore. Never hardcode your keys directly into your code.
 Git History Clean-up: This repository's history has been cleaned using BFG Repo-Cleaner to remove any accidental past commits of sensitive data.
+
